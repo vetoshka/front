@@ -4,6 +4,10 @@ body{
 button{
     cursor: pointer;
 }
+a {
+    color: black;
+    text-decoration: none; 
+  }
 
 .title_tote{
     font-size: 47px;
@@ -87,4 +91,7 @@ button{
     grid-column-gap: 10px;
     grid-row-gap: 10px;
     margin-top: 60px;
+}
+.product_price{
+    margin-bottom: 10px;
 }

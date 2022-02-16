@@ -70,6 +70,16 @@
 }
 
 .product_image{
-    width: 40%;
-    height: 40%;
+    width: 30%;
+    height: 30%;
+    margin-top: 60px;
+}
+.buy{
+    background: #121212;
+    width: 20%;
+    text-align: center;
+    color: rgb(228, 226, 226);
+    font-weight: 500;
+    padding: 10px 0;
+    margin-top: 10px;
 }

@@ -50,6 +50,7 @@ JSON.parse(products).forEach(e => {
         <span class="product_name">${e.name}</span>
         <div class="line"></div>
         <span class="product_price">$${e.price}</span>
+        <a href = "./details.html">Details</a>
     </div>` 
     );
 })}
