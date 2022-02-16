@@ -1,0 +1,129 @@
+
+body{
+    font-family: Arial , sans-serif;
+}
+button{
+    cursor: pointer;
+}
+.product_item{
+   margin: 30px 0;
+}
+.line{
+    height: 1px;
+    background: #dcdcdc;
+    width: 100%;
+}
+.product_image{
+    width: 10%;
+}
+.product_details{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.product_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.calculate{
+    border: none;
+    background: none;
+    font-size: 17px;
+    margin: 0px 2px 0px 2px;
+}
+.quantity{
+    margin: 0px 40px 0px 0;
+    align-items: center;
+    display: flex;
+    border: 1px;
+    border-style: double;
+    border-color: black;
+}
+.delete{
+    border: none;
+    background: none;
+    opacity: 50%;
+    margin-left: 20px;
+}
+.product_characteristics{
+    display: flex;
+    align-items: flex-start;
+}
+
+.price_info{
+    display: flex;
+    align-items: center;
+}
+
+.container_cart{
+    width: 900px;
+    margin: 80px auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.order_summary{
+    max-width: 250px;
+    flex-grow: 1;
+}
+
+.space_beetwen{
+    display: flex;
+    justify-content: space-between;
+}
+
+.product_characteristics img{
+    width: 100px;
+    border: 1px solid black;
+    margin-right: 20px;
+}
+
+.product_cart{
+    flex-grow: 1;
+    max-width: 600px;
+}
+.product_info{
+    color: #8b8f8a;
+}
+
+.product_info span:first-child{
+    color: black;
+    margin-bottom: 10px;
+}
+
+.container_cart h3{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.order_info{
+    margin: 30px 0;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.total{
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.total span:last-child{
+    font-size: 20px;
+}
+
+.checkout{
+    background: #121212;
+    width: 100%;
+    text-align: center;
+    color: rgb(228, 226, 226);
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+.order_info div:first-child{
+    margin-bottom: 20px;
+}
