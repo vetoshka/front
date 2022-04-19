@@ -21,8 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="96c282af-4b0e-4e6f-b18f-536b7aa04b37" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/details.css" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/details.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/details.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/details.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +71,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1645029860951</updated>
-      <workItem from="1645029862246" duration="4499000" />
+      <workItem from="1645029862246" duration="4857000" />
+      <workItem from="1645038823884" duration="599000" />
+      <workItem from="1645078377659" duration="1693000" />
+      <workItem from="1645100266441" duration="613000" />
+      <workItem from="1645288016194" duration="3328000" />
+      <workItem from="1650126011349" duration="71000" />
+      <workItem from="1650126105748" duration="66000" />
+      <workItem from="1650390147681" duration="290000" />
     </task>
     <servers />
   </component>
@@ -90,5 +95,20 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1650126170385">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1650126170385" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1645290253964">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1645290253964" />
+    <state x="478" y="145" width="579" height="534" key="find.popup" timestamp="1645290250533">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="478" y="145" width="579" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1645290250533" />
   </component>
 </project>
