@@ -24,4 +24,4 @@ jobs:
           base_href: /angular-highlight-search-pipe/  
           deploy_branch: gh-pages 
           angular_dist_build_folder: ./lab3
-          angular_project_dir: ./lab3/src
+          angular_project_dir: ./lab3
