@@ -21,7 +21,7 @@ jobs:
           working-directory: ./lab3
           github_access_token: ${{ secrets.GITHUB_TOKEN  }} 
           build_configuration: production
-          working-directory: ./lab3
           base_href: /angular-highlight-search-pipe/  
           deploy_branch: gh-pages 
           angular_dist_build_folder: dist/highlightSearch
+          angular_project_dir: ./lab3
