@@ -1,5 +1,4 @@
 <div class="product_cart">
-    <h3>My cart</h3>
     <div class="line"></div>
     <div class="product_item">
         <div class="product_details">
@@ -14,16 +13,16 @@
             <div class="price_info">
                 <div class="quantity">
                     <button class="calculate">
-                        <mat-icon class="material-icons-outlined" aria-hidden="true">remove</mat-icon>
+                        <mat-icon class="material-icons-outlined" aria-hidden="true" (click)="onDecrease()">remove</mat-icon>
                     </button>
-                    <span>1</span>
+                    <span>{{product.quantity}}</span>
                     <button class="calculate">
-                        <mat-icon class="material-icons-outlined" aria-hidden="true">add</mat-icon>
+                        <mat-icon class="material-icons-outlined" aria-hidden="true" (click)="onIncrease()">add</mat-icon>
                     </button>
                 </div>
-                <span class="product_price">$15.00</span>
+                <span class="product_price">{{product.price | currency}}</span>
                 <button class="delete">
-                    <mat-icon class="material-icons-outlined" aria-hidden="true">close</mat-icon>
+                    <mat-icon class="material-icons-outlined" aria-hidden="true" (click) = "onDeleteFromCart()">close</mat-icon>
                 </button>
             </div>
         </div>

@@ -8,18 +8,22 @@ import { HttpClientModule } from '@angular/common/http';
 import { CartItemComponent } from './components/Cards/cart-list/cart-item/cart-item.component';
 import { CartListComponent } from './components/Cards/cart-list/cart-list.component';
 import { MatIconModule } from '@angular/material/icon';
+import { LoginComponent } from './components/login/login.component';
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
     CartItemComponent,
-    CartListComponent
+    CartListComponent,
+    LoginComponent
   ],
   imports: [
     MatIconModule,
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
-    NoopAnimationsModule
+    NoopAnimationsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

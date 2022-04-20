@@ -1,7 +1,14 @@
 <div class="container_cart">
-    <app-cart-item *ngFor='let product of products$ | async;' [product]="product">
-    </app-cart-item>
     
+    <div>
+        <h3>My cart</h3>
+        <app-cart-item *ngFor='let product of products$ | async;'
+         [product]="product"
+         (deleteFromCart)='onDeleteFromCart($event)'
+         (increaseProductCount)='onIncrease($event)'
+         (decreaseProductCount)='onDecrease($event)'>
+        </app-cart-item>
+    </div>
     <div class="order_summary">
         <h3 class="order_title">Order Summary</h3>
         <div class="line"></div>

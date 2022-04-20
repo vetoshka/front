@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons+Outlined');
+
+
+.login-page{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 95vh;
+    min-width: 700px;
+    background: linear-gradient(70deg, #f4596b, #fd7d50) !important;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.login-button{
+    margin: 20px;
+    width: 100%;
+    background-color: #3d3d59;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 50px;
+    border: none;
+    padding: 8px 0px;
+}
+.form-input{
+    border-radius: 50px;
+    border-color: white;
+    margin-top: 10px;
+    padding: 5px 0px 5px 35px;
+    background: rgba(255,255,255, .7);
+    width: 100%;
+    font-family:  'Poppins', 'Material Icons Outlined';
+}
+::placeholder {
+    color: #d96c66;
+    font-size: 14px;
+  }
+
+form{
+    min-width: 500px;
+}
+.wrapper {
+    position: relative;
+
+}
+
+.form_input_user_span{
+    position: absolute;
+    top: calc(50% - 25px);
+    font-size: 20px;
+    line-height: 12px;
+    left: 10px;
+    font-family: 'Material Icons Outlined';
+    color: #d96c66;
+}
+.form_input_password_span{
+    position: absolute;
+    top: calc(50% + 20px);
+    font-size: 20px;
+    line-height: 12px;
+    left: 10px;
+    font-family: 'Material Icons Outlined';
+    color: #d96c66;
+}

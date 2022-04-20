@@ -26,10 +26,12 @@ export class CartItemComponent {
 
   onIncrease(): void {
     this.increaseProductCount.emit(this.product);
+    this.product.quantity++;
   }
   onDecrease(): void {
     if (this.product.quantity) {
       this.decreaseProductCount.emit(this.product);
+      this.product.quantity--;
     }
 
   }
