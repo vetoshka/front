@@ -1,0 +1,25 @@
+<div class="container_cart">
+    <app-cart-item *ngFor='let product of products$ | async;' [product]="product">
+    </app-cart-item>
+    
+    <div class="order_summary">
+        <h3 class="order_title">Order Summary</h3>
+        <div class="line"></div>
+        <div class="order_info">
+            <div class="space_beetwen">
+                <span>Subtotal</span>
+                <span>{{getProductSummary()}}</span>
+            </div>
+            <div class="space_beetwen">
+                <span>Shipping</span>
+                <span>FREE</span>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="total space_beetwen">
+            <span>Total</span>
+            <span>{{getProductSummary()}}</span>
+        </div>
+        <button class="checkout">Checkout</button>
+    </div>
+</div>

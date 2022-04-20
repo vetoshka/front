@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./reset.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="login.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"rel="stylesheet">
+    </head>
+    <body>
+        <div class="login-page">
+            <h2>LOGIN</h2>
+            <form>
+                <div class="wrapper">
+                    <span class="form_input_user_span">&#xe7ff;</span>
+                    <input type="text" class="form-input name" placeholder="Username" required>
+                    <span class="form_input_password_span">&#xe88d;</span>
+                    <input type="text" class="form-input password" placeholder="Password" required>
+                </div>
+                <button class="login-button" (click)="onLogin()">Login Now</button>
+            </form>
+        </div>
+    </body>
+</html>
