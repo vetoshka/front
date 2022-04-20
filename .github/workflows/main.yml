@@ -1,27 +1,32 @@
-# This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Build and Deploy
 
-# Controls when the action will run. Triggers the workflow on push or pull request
-# events but only for the master branch
 on:
   push:
-    branches: 
-    - master
+    branches:
+      - master
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-
-      # Runs a single command using the runners shell
-      - name: Angular Deploy gh-pages Actions
-        uses: AhsanAyaz/angular-deploy-gh-pages-actions@v1.3.1
-        with:
-          working-directory: ./lab3
-          github_access_token: ${{ secrets.GITHUB_TOKEN  }} 
-          build_configuration: production
-          base_href: /angular-highlight-search-pipe/  
-          deploy_branch: gh-pages 
-          angular_dist_build_folder: ./lab3/src
-          angular_project_dir: ./lab3
+    - name: Checkout
+      uses: actions/checkout@v1
+    - uses: actions/setup-node@v1 #this installs node and npm for us
+      with:
+        node-version: '16.x'
+    - uses: actions/cache@v1 # this allows for re-using node_modules caching, making builds a bit faster.
+      with:
+        path: ~/.npm
+        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-node-    
+    - name: Build
+      run: |
+        npm install
+        npm run-script deploy
+    - name: Deploy
+      uses: JamesIves/github-pages-deploy-action@releases/v3
+      with:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        BRANCH: gh-pages
+        FOLDER: dist/angular-ci-cd
