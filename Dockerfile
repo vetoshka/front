@@ -5,14 +5,14 @@ RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezoneRU
 RUN apt-get update && apt install sudo
 RUN apt-get install -y apache2
 RUN sudo apt-get update
-RUN sudo apt install -y nodejs
-RUN sudo apt install -y npm
-RUN cd /usr/lab3/src
+RUN sudo apt install curl
+RUN curl -s https://deb.nodesource.com/setup_16.x | sudo bash
+RUN sudo apt install nodejs -y
+WORKDIR /usr/lab3
 RUN npm install
 RUN npm install json-server
-RUN npm start
-RUN npx json-server --watch db.json -p 3001 -d 2000
 RUN apt-get clean
 VOLUME ["D:\docker\ubuntu_vol"]
 EXPOSE 3307
+CMD npm start
 CMD apachectl -D FOREGROUND
