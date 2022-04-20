@@ -22,10 +22,10 @@ jobs:
           ${{ runner.os }}-node-    
     - name: Build
       run: |
+        working-directory: ./lab3
         npm install
         working-directory: ./lab3
         npm run-script deploy
-        working-directory: ./lab3
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
