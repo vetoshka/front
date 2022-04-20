@@ -30,5 +30,7 @@ jobs:
         cache-dependency-path: './lab3/package-lock.json'
     - run: npm install
       working-directory: ./lab3
+    - run: npm install json-server
+      working-directory: ./lab3
     - run: npm start
       working-directory: ./lab3
