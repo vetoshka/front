@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96c282af-4b0e-4e6f-b18f-536b7aa04b37" name="Default Changelist" comment="user, login and card pages" />
+    <list id="791e1e24-75db-4beb-aee2-7160a8ab1710" name="Revert &quot;Add files via upload&quot;" comment="Revert &quot;Add files via upload&quot;&#10;&#10;This reverts commit 79810043" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +34,9 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Pull.Settings">
+    <option name="BRANCH" value="master" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -58,6 +62,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Учеба\4 курс\2 сем\Фронт\front" />
       <recent name="D:\Учеба\4 курс\2 сем\Фронт\front\lab1" />
     </key>
   </component>
@@ -119,14 +124,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="user, login and card pages" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="364" y="0" key="CommitChangelistDialog2" timestamp="1650484292054">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="364" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1650484292054" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1650126170385">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1650126170385" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1650452846567">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1650484382597">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1650452846567" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1650484382597" />
     <state x="478" y="145" width="579" height="534" key="find.popup" timestamp="1645290250533">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
