@@ -24,7 +24,7 @@ jobs:
       working-directory: ./lab3
       run: |
         npm install
-        npm run-script deploy
+        npm deploy
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
