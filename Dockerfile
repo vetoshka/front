@@ -10,8 +10,9 @@ RUN sudo apt install -y npm
 RUN cd /usr/lab3/src
 RUN npm install
 RUN npm install json-server
+RUN npm start
+RUN npx json-server --watch db.json -p 3001 -d 2000
 RUN apt-get clean
 VOLUME ["D:\docker\ubuntu_vol"]
 EXPOSE 3307
 CMD apachectl -D FOREGROUND
-CMD ["npm", "start"]
