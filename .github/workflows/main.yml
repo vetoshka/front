@@ -21,10 +21,9 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-node-    
     - name: Build
+      working-directory: ./lab3
       run: |
-        working-directory: ./lab3
         npm install
-        working-directory: ./lab3
         npm run-script deploy
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@releases/v3
